@@ -1,0 +1,60 @@
+*{
+    background-color: #123458;
+    color: #F1EFEC;
+    font-family: monospace;
+}
+header h1{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.Quotes{
+    background-color: #F1EFEC;
+    border-radius: 15px;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    justify-self: center;
+}
+.txt{
+    background-color: #F1EFEC;
+    color: #123458;
+    border: none;
+    resize: none;
+    width: 600px;
+    height: 20px;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-size: 17px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.Gen{
+    justify-self: center;
+    margin-top: 45px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: solid 0.8px #F1EFEC;
+    transition: 200ms;
+}
+.Gen:hover{
+    color: #123458;
+    background-color: #F1EFEC;
+}
+
+@media(max-width: 1000px){
+    .Quotes{
+        width: 90%;
+        height: 400px;
+    }
+    .txt{
+        width: 90%;
+        height: 60px;
+    }
+}
